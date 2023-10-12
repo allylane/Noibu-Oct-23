@@ -5,6 +5,32 @@ import { type Config } from 'tailwindcss'
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    /*colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'blue': {
+        100: '#cffafe',
+        200: '#a5f3fc',
+        300: '#67e8f9',
+        400: '#22d3ee',
+        500: '#2600FF',
+        600: '#2600FF',
+        700: '#0e7490',
+        800: '#155e75',
+        900: '#164e63',
+      },
+      'slate': {
+        100: '#cffafe',
+        200: '#a5f3fc',
+        300: '#67e8f9',
+        400: '#22d3ee',
+        500: '#2600FF',
+        600: '#2600FF',
+        700: '#0e7490',
+        800: '#155e75',
+        900: '#164e63',
+      },
+    },*/
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.5rem' }],
@@ -23,10 +49,6 @@ export default {
     extend: {
       borderRadius: {
         '4xl': '2rem',
-      },
-      fontFamily: {
-        sans: 'var(--font-inter)',
-        display: 'var(--font-lexend)',
       },
       maxWidth: {
         '2xl': '40rem',

@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Montreal';
+    src: url('../fonts/Montreal.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Editorial';
+    src: url('../fonts/Editorial.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'EditorialItalic';
+    src: url('../fonts/EditorialItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+
+h1, h2 {
+    font-family: 'Editorial', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.editorial-italic {
+    font-family: 'EditorialItalic', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+  
+body {
+    font-family: 'Montreal', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
