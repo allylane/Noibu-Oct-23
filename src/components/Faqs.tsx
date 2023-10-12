@@ -76,7 +76,7 @@ export function Faqs() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="faq-title"
-            className="font-display text-3xl text-slate-900 sm:text-4xl"
+            className="font-display text-5xl text-slate-900 sm:text-6xl"
           >
             Frequently asked questions
           </h2>
