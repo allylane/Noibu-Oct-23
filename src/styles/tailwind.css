@@ -63,3 +63,7 @@ body {
     font-style: normal;
     font-display: swap;
 }
+
+.text-balance {
+  text-wrap: balance
+}

@@ -7,6 +7,8 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
+import { Bento } from '@/components/Bento'
+import { FeaturesIcons } from '@/components/FeaturesIcons'
 
 export default function Home() {
   return (
@@ -14,14 +16,13 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <PrimaryFeatures />
-        <SecondaryFeatures />
+        <Bento />
+        <FeaturesIcons />
         <CallToAction />
         <Testimonials />
-        <Pricing />
-        <Faqs />
       </main>
       <Footer />
     </>
   )
 }
+

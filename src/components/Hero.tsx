@@ -8,24 +8,62 @@ import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
 import logoTransistor from '@/images/logos/transistor.svg'
 import logoTuple from '@/images/logos/tuple.svg'
+import issuesScreenshot from '@/images/screenshots/issues.jpg'
 
 export function Hero() {
   return (
-    <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <h1 className="mx-auto font-display text-5xl font-medium text-slate-900 sm:text-8xl">
+    <Container className="pb-16 text-center">
+<div className="relative isolate pt-4 lg:pt-16">
+        <div className="pb-20">
+
+
+
+        <div className="hidden sm:mb-8 sm:flex sm:justify-center pt-20">
+            <div className="relative rounded-full px-3 py-1 text-base text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+             Events log, now available to all customers{' '}
+              <a href="https://help.noibu.com/hc/en-us/categories/7427166781581-New-Releases" className="text-blue-800">
+                <span className="absolute inset-0" aria-hidden="true" />
+                <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto text-center">
+            <h1 className="mx-auto font-display text-5xl font-medium text-slate-900 sm:text-8xl text-balance">
       Optimize your online store with <span className="editorial-italic text-blue-800">next-level</span> performance monitoring.
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg  text-slate-700">
-      Proactively look after your online store.
-Identify issues, improve performance and retain revenue.
+      <p className="mx-auto mt-6 max-w-2xl text-2xl text-slate-900 text-balance">
+      Proactively look after your e-commerce website. Identify issues, improve performance and retain revenue.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Get a demo</Button>
-        <p>Contact us today to learn more about our 3 month free trial.</p>
+        <Button className='text-xl px-6 py-3' href="/register">Get a demo</Button>
       </div>
-      <div className="mt-36 lg:mt-44">
-        <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
+            </div>
+            <div className="mt-16 flow-root sm:mt-24">
+              <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+                <Image
+                  src={issuesScreenshot.src}
+                  alt="App screenshot"
+                  width={2432}
+                  height={1423}
+                  className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div>
+        <p className="font-display text-2xl text-slate-900">
+          Trusted by eCommerce teams of all sizes
         </p>
         <ul
           role="list"
@@ -57,7 +95,13 @@ Identify issues, improve performance and retain revenue.
             </li>
           ))}
         </ul>
+        
       </div>
+      
+
+      
     </Container>
   )
 }
+
+
