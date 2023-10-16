@@ -101,9 +101,13 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#features">Features</MobileNavLink>
-            <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-            <MobileNavLink href="#pricing">Pricing</MobileNavLink>
+
+
+            <MobileNavLink href="/product">Product</MobileNavLink>
+            <MobileNavLink href="/customers">Customers</MobileNavLink>
+            <MobileNavLink href="/resources">Resources</MobileNavLink>
+            <MobileNavLink href="/partners">Partners</MobileNavLink>
+            <MobileNavLink href="/company">Company</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="/login">Sign in</MobileNavLink>
           </Popover.Panel>
@@ -135,9 +139,7 @@ export function Header() {
 
   return (
     <header
-      className={`py-5 fixed w-full shadow-sm transition-all duration-300 z-50 ${
-        isScrolled ? 'bg-white bg-opacity-80 backdrop-filter backdrop-blur-md' : ''
-      }`}
+      className="py-5 fixed w-full shadow-sm transition-all duration-300 z-50 bg-white bg-opacity-80 backdrop-filter backdrop-blur-md"
     >
       <Container>
         <nav className="relative z-50 flex justify-between montrealsemibold">

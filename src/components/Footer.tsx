@@ -6,15 +6,17 @@ import { NavLink } from '@/components/NavLink'
 
 export function Footer() {
   return (
-    <footer className="bg-slate-50">
+    <footer>
       <Container>
         <div className="py-16">
-          <Logo className="mx-auto h-10 w-auto" />
+          <Logo className="mx-auto h-8 w-auto" />
           <nav className="mt-10 text-sm" aria-label="quick links">
-            <div className="-my-1 flex justify-center gap-x-6">
+            <div className="-my-1 flex justify-center gap-x-6 montrealsemibold">
               <NavLink href="/product">Product</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href="/customers">Customers</NavLink>
+              <NavLink href="/resources">Resources</NavLink>
+              <NavLink href="/partners">Partners</NavLink>
+              <NavLink href="/company">Company</NavLink>
             </div>
           </nav>
         </div>
@@ -23,7 +25,7 @@ export function Footer() {
             <Link
               href="https://twitter.com"
               className="group"
-              aria-label="TaxPal on Twitter"
+              aria-label="Noibu on Twitter"
             >
               <svg
                 aria-hidden="true"
@@ -35,7 +37,7 @@ export function Footer() {
             <Link
               href="https://github.com"
               className="group"
-              aria-label="TaxPal on GitHub"
+              aria-label="Noibu on GitHub"
             >
               <svg
                 aria-hidden="true"
@@ -46,7 +48,7 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} TaxPal. All rights
+            Copyright &copy; {new Date().getFullYear()} Noibu. All rights
             reserved.
           </p>
         </div>

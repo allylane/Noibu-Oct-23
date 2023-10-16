@@ -67,3 +67,7 @@ body {
 .text-balance {
   text-wrap: balance
 }
+
+.textlink {
+  text-decoration: underline;
+}

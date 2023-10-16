@@ -15,13 +15,13 @@ export default function Register() {
     <SlimLayout>
       <div className="flex">
         <Link href="/" aria-label="Home">
-          <Logo className="h-10 w-auto" />
+          <Logo className="h-8 w-auto" />
         </Link>
       </div>
-      <h2 className="mt-20 text-lg font-semibold text-gray-900">
-        Get started for free
+      <h2 className="mt-20 text-xl text-gray-900">
+        Book a demo
       </h2>
-      <p className="mt-2 text-sm text-gray-700">
+      <p className="mt-2 text-base text-gray-700">
         Already registered?{' '}
         <Link
           href="/login"
