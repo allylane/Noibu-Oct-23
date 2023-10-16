@@ -56,19 +56,6 @@ export const Bento = () => {
                     />
                 </div>
 
-                <div 
-                    className="text-white flex flex-col items-center col-span-2 rounded-md ring-1 ring-gray-900/10 bg-cover bg-center lg:w-full lg:h-[390px] w-full h-[50vw]"
-                    style={{ backgroundImage: `url(${Browsers.src})` }}
-                >
-                    <div className="text-white flex flex-col items-center p-4">
-                        <h2 className="mx-auto text-slate-900 text-3xl text-center pt-10 text-balance lg:text-3xl sm:text-2xl text-xl">
-                            Easily reproduce issues with detailed system analysis
-                        </h2>
-                        <p className="mx-auto mt-4 text-xl text-slate-900 text-center text-balance lg:text-xl sm:text-lg text-base">
-                            Use the information from the issue to reproduce the problem in your development environment.
-                        </p>
-                    </div>
-                </div>
 
                 <div className="text-white flex flex-col justify-between items-center col-span-2 lg:col-span-1 rounded-md ring-1 ring-gray-900/10">
                     <div>
@@ -120,15 +107,6 @@ export const Bento = () => {
                         width={397}
                         height={757}
                     />
-                </div>
-                <div className="text-white flex flex-col justify-between items-center col-span-2 lg:col-span-1 rounded-md ring-1 ring-gray-900/10">
-                    <div>
-                        <h2 className="mx-auto text-slate-900 text-3xl text-center px-4 pt-10 text-balance">
-Insert feature                        </h2>
-                        <p className="mx-auto mt-4 px-4 text-xl text-slate-900 text-center text-balance">
-                            Insert copy about a feature
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
