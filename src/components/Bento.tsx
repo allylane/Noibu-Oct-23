@@ -13,9 +13,8 @@ export const Bento = () => {
                 <h2 className="mx-auto font-display text-5xl font-medium text-slate-900 sm:text-6xl">
                     Rich with <span className="editorial-italic text-blue-800">e-commerce</span> focussed features.
                 </h2>
-                <p className="mx-auto mt-6 max-w-2xl text-2xl text-slate-900">
-                    Proactively look after your online store.
-                    Identify issues, improve performance and retain revenue.
+                <p className="mx-auto mt-6 max-w-2xl text-2xl text-slate-900 text-balance">
+                    Designed to meet the specific monitoring needs of e-commerce teams.
                 </p>
             </div>
 
@@ -63,7 +62,7 @@ export const Bento = () => {
                         Smart issues, simply explained
                         </h2>
                         <p className="mx-auto mt-4 px-4 text-xl text-slate-900 text-center text-balance">
-                        We translate complex technical issues into something anyone can understand
+                        We translate complex technical issues into something anyone can understand.
                         </p>
                     </div>
                     <Image
