@@ -4,7 +4,8 @@
 
 @font-face {
   font-family: 'Montreal';
-  src: url('../fonts/Montreal.otf') format('opentype');
+  src: url('https://23535580.fs1.hubspotusercontent-na1.net/hubfs/23535580/Montreal.otf')
+    format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -13,8 +14,10 @@
 @font-face {
   font-family: 'MontrealSemiBold';
   src:
-    url('../fonts/MontrealSemiBold.woff2') format('woff2'),
-    url('../fonts/MontrealSemiBold.woff') format('woff');
+    url('https://23535580.fs1.hubspotusercontent-na1.net/hubfs/23535580/MontrealSemiBold-1.woff2')
+      format('woff2'),
+    url('https://23535580.fs1.hubspotusercontent-na1.net/hubfs/23535580/MontrealSemiBold-1.woff')
+      format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -22,7 +25,8 @@
 
 @font-face {
   font-family: 'Editorial';
-  src: url('../fonts/Editorial.otf') format('opentype');
+  src: url('https://23535580.fs1.hubspotusercontent-na1.net/hubfs/23535580/PPEditorialNew-Regular-BF644b214ff145f.otf')
+    format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -30,7 +34,8 @@
 
 @font-face {
   font-family: 'EditorialItalic';
-  src: url('../fonts/EditorialItalic.otf') format('opentype');
+  src: url('https://23535580.fs1.hubspotusercontent-na1.net/hubfs/23535580/EditorialItalic.otf')
+    format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
