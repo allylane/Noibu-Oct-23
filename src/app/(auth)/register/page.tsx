@@ -18,9 +18,7 @@ export default function Register() {
           <Logo className="h-8 w-auto" />
         </Link>
       </div>
-      <h2 className="mt-20 text-xl text-gray-900">
-        Book a demo
-      </h2>
+      <h2 className="mt-20 text-xl text-gray-900">Book a demo</h2>
       <p className="mt-2 text-base text-gray-700">
         Already registered?{' '}
         <Link

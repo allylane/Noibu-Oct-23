@@ -3,71 +3,124 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Montreal';
-    src: url('../fonts/Montreal.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: 'MontrealSemiBold'; 
-    src: url('../fonts/MontrealSemiBold.woff2') format('woff2'), 
-        url('../fonts/MontrealSemiBold.woff') format('woff'); 
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
+  font-family: 'Montreal';
+  src: url('../fonts/Montreal.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-  @font-face {
-    font-family: 'Editorial';
-    src: url('../fonts/Editorial.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'MontrealSemiBold';
+  src:
+    url('../fonts/MontrealSemiBold.woff2') format('woff2'),
+    url('../fonts/MontrealSemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'EditorialItalic';
-    src: url('../fonts/EditorialItalic.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  
+@font-face {
+  font-family: 'Editorial';
+  src: url('../fonts/Editorial.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-h1, h2 {
-    font-family: 'Editorial', serif;
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+@font-face {
+  font-family: 'EditorialItalic';
+  src: url('../fonts/EditorialItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2 {
+  font-family: 'Editorial', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 .editorial-italic {
-    font-family: 'EditorialItalic', serif;
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'EditorialItalic', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
-  
+
 body {
-    font-family: 'Montreal', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Montreal', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 .montrealsemibold {
-    font-family: 'MontrealSemiBold', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'MontrealSemiBold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 .text-balance {
-  text-wrap: balance
+  text-wrap: balance;
 }
 
 .textlink {
   text-decoration: underline;
+}
+
+.gradient-text {
+  background: linear-gradient(to bottom, #dddddb, #afafaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.shimmer-border img {
+  border: 1px solid #2a364b;
+  border-radius: 12px;
+}
+
+.text-white {
+  color: #dddddb !important;
+}
+
+.logo-header * {
+  width: 130px;
+  height: 26px;
+}
+.buttonstyle {
+  position: relative;
+  border: transparent;
+  color: #ffffff !important;
+  background: linear-gradient(0deg, #000, #171717);
+}
+
+.buttonstyle:hover {
+  background: #ffffff !important;
+  color: #000 !important;
+}
+
+.buttonstyle::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  background: linear-gradient(45deg, #171717, #58595b);
+  z-index: -1;
+  border-radius: inherit;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+.text-blue-800 {
+  color: #ffffff !important;
+}
+
+.bg-slate-900 {
+  background: #131313;
 }
