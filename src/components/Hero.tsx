@@ -1,9 +1,4 @@
 import Image from 'next/image'
-
-import { EffectComposer } from 'postprocessing'
-import { RenderPass } from 'postprocessing'
-import { BokehPass } from 'postprocessing'
-
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import logoLaravel from '@/images/logos/laravel.svg'
